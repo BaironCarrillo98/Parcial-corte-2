@@ -1,12 +1,12 @@
 
-function calculate(operation) {
+function calculate(validacion) {
     
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var result;
 
     
-    switch (operation) {
+    switch (validacion) {
         case 'sum':
             result = num1 + num2;
             break;
